@@ -1,5 +1,3 @@
-a = 49
-b = 0.2683
+a, b, c = int(input())
 
-result1 = a * b
-print(a, "*", b, "=", result1)
+print(a,b,c)
