@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>인터랙티브 RPG 자기소개</h1>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>
+{% endblock %}
